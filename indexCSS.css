@@ -1,0 +1,31 @@
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+}
+
+#overrides h3 {
+    font-weight: bold;
+    color: black;
+}
+#overrides h4 {
+    font-weight: bold;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    background-image: url('HeaderBackground.png') !important;
+    background-size: 100% !important;
+    height: 580px;
+    background: inherit;
+}
+
+#overrides {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    background-color: #BEBEBE;
+    color: #696969;
+}

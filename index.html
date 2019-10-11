@@ -2,150 +2,186 @@
 <html lang="en">
 
 <head>
-    <!-- <link rel="stylesheet" type="text/css" href="indexCSS.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="indexCSS.css">
+    <!--<link rel="stylesheet" href="purple.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="contactUs.js"></script>
     <title>JMU Club Swimming</title>
+</head>
 
-<body>
-    <div id="top">
-        <header>
-            <!-- TODO - Add background image 'HeaderBackground' for the header background-->
-            <h1>James Madison University</h1>
-            <h2>Club Swimming</h2>
-        </header>
+<body id="overrides">
+    <div id="title">
+        <br> James Madison University <br>
+        Club Swimming
     </div>
-    <!-- TODO - Put these links inside a navbar at the top-->
-    <a href="#about">About</a> <br>
-    <a href="#join">How to Join</a> <br>
-    <a href="#records">Team Records</a> <br>
-    <a href="#results">Team Results</a> <br>
-    <a href="#alumni">Alumni</a> <br>
-    <a href="#faq">FAQS</a> <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <nav class="col-sm-3">
+                <div class="container-fluid">
+                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+                        <li class="active"><a href="#About">Home</a></li>
+                        <li><a href="#join">How to Join</a> </li>
+                        <li><a href="#records">Team Records</a></li>
+                        <li><a href="#results">Team Results</a></li>
+                        <li><a href="#alumni">Alumni</a></li>
+                        <li><a href="#faq">FAQS</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="wrapperforotherdivs" class="col-sm-9">
+                <section id="about">
+                    <h3>About</h3>
+                    <p>
+                        Club Swimming is a co-ed team with about 200 active members. We are part of College Club
+                        Swimming (CCS) which is the collective organization that unifies college club swim programs
+                        across the country.
+                    </p>
 
-    <div id="about">
-        <h3>About</h3>
-        <p>
-            Club Swimming is a co-ed team with about 200 active members. We are part of College Club Swimming (CCS) <br>
-            which is the collective organization that unifies college club swim programs across the country. <br>
-            <br>
-            We practice five days per week for an hour and a half and compete in meets in both the fall and spring
-            semesters. <br>
-            There are three meets per semester, two of those being "day" meets where we travel to schools within
-            Virginia and one <br>
-            overnight/weekend meet. <br><br>
+                    <p>
+                        We practice five days per week for an hour and a half and compete in meets in both the fall and
+                        spring semesters. There are three meets per semester, two of those being "day" meets where we
+                        travel to schools within Virginia and one overnight/weekend meet.
+                    </p>
 
-            We attend CCS Nationals in the spring semester every year.
-        </p>
-    </div>
+                    <p>We attend CCS Nationals in the spring semester every year.</p>
+                </section>
+                <br>
 
-    <div id="join">
-        <br>
-        <h3>How to Join</h3>
-        <p>We do not hold tryouts nor do we make cuts.</p>
-        <p>
-            Our team functions as a year-round team, so you can technically join throughout the year. The ideal time to
-            <br>
-            join is at the beginning of the semester. We hold a fall information session, where you can learn all about
-            <br>
-            the team. Beside the info session, you can come to practice and join the team any day during the week.
-        </p>
-        <h4>JMU Club Swim Email List</h4>
-        <p> This is the best way to join / receive updates on the team. <br><br>
+                <section id="join">
+                    <h3>How to Join</h3>
+                    <p>We do not hold tryouts nor do we make cuts.</p>
+                    <p>
+                        Our team functions as a year-round team, so you can technically join throughout the year. The
+                        ideal time to join is at the beginning of the semester. We hold a fall information session,
+                        where you can
+                        learn all about the team. Beside the info session, you can come to practice and join the team
+                        any day during
+                        the week.
+                    </p>
+                    <br>
+                    <h4>JMU Club Swim Email List</h4>
+                    <p>
+                        This is the best way to join / receive updates on the team.
+                        In order to subscribe to the JMU Club Swim email list, please send an email to
+                        <a href="mailto:jmuclubswimming@gmail.com">jmuclubswimming@gmail.com</a>.
+                        Please make the subject "Email List" and provide your full name, phone number, and email
+                        address. If you are interested in joining please state your interest in your email and one of
+                        our exec
+                        members will respond to you shortly with more information.
+                    </p>
+                    <p>
+                        In order to unsubscribe from the email list, please send an email with the subject "Unsubscribe"
+                        and
+                        list your name in the body.
+                    </p>
+                    <br>
+                    <h4>Dues</h4>
+                    <p> Dues are $85 per semester or $150 for the full year. </p>
+                    <p>This covers everything from weekend social events to travel expenses for meets and Nationals.</p>
+                </section>
+                <br>
 
-            In order to subscribe to the JMU Club Swim email list, please send an email to
-            <a href="mailto:jmuclubswimming@gmail.com">jmuclubswimming@gmail.com</a> <br>
-            Please make the subject "Email List" and provide your full name, phone number, and email address. <br> <br>
+                <section id="records">
+                    <h3>Team Records</h3>
+                    <p>All of our records are available <a href="team_records.pdf">here</a> (PDF Download)</p>
+                </section>
+                <br>
 
-            If you are interested in joining please state your interest in your email and one of our exec members will
-            <br>
-            respond to you shortly with more information. <br> <br>
+                <section id="results">
+                    <h3>Team Results 2018-19</h3>
+                    <ul>
+                        <li><a href="time_trials_results.pdf">Invitational Time Trial Results</a></li>
+                        <li><a href="main_session_results.pdf">Invitational Main Session Results</a></li>
+                        <li><a href="rutgers_results.pdf">Rutgers Results</a></li>
+                        <li><a href="fall2018_umd_boysresults.pdf">UMD Mens Results</a></li>
+                        <li><a href="fall2018_umd_girlsresults.pdf">UMD Womens Results</a></li>
+                    </ul>
+                </section>
+                <br>
 
-            In order to unsubscribe from the email list, please send an email with the subject "Unsubscribe" and
-            list <br>
-            your name in the body. <br>
-        </p>
-        <h4>Dues</h4>
-        <p>Dues are $85 per semester or $150 for the full year <br>
-            This covers everything from weekend social events to travel expenses for meets and Nationals.
-        </p>
-        <a href="#top">Back to top</a>
-    </div>
+                <section id="alumni">
+                    <br>
+                    <h3>Alumni Relations</h3>
+                    <p>
+                        This is the best way to stay connected with the team, and big events like home meets, homecoming
+                        tailgates, and other fun events. Once apart of the family, always a part of the family! We love
+                        seeing our
+                        Alumni come back every year.
+                    </p>
+                    <p>
+                        To get added to the Alumni email list/Facebook Page please email
+                        <a href="mailto:jmuclubswimming@gmail.com">jmuclubswimming@gmail.com</a>. List "Alumni" as
+                        the subject, and provide your name, email, and grad year in the body.
+                    </p>
+                </section>
+                <br>
 
-    <div id="records">
-        <br>
-        <h3>Team Records</h3>
-        <p>All of our records are available <a href="team_records.pdf">here</a> (PDF Download)</p>
-        <a href="#top">Back to top</a>
-    </div>
+                <section id="faq">
 
-    <div id="results">
-        <br>
-        <h3>Team Results</h3>
-        <table title="2018-2019">
-            <tr>
-                <td><a href="time_trials_results.pdf">Invitational Time Trial Results</a></td>
-            </tr>
-            <tr>
-                <td><a href="main_session_results.pdf">Invitational Main Session Results</a></td>
-            </tr>
-            <tr>
-                <td><a href="rutgers_results.pdf">Rutgers Results</a></td>
-            </tr>
-            <tr>
-                <td><a href="fall2018_umd_boysresults.pdf">UMD Mens Results</a></td>
-            </tr>
-            <tr>
-                <td><a href="fall2018_umd_girlsresults.pdf">UMD Womens Results</a></td>
-            </tr>
-        </table>
-        <br><a href="#top">Back to top</a>
-    </div>
+                    <h3>FAQS</h3>
+                    <h4>Where and How Often Are Practices?</h4>
+                    <p>
+                        All practices are held in the University Recreation (UREC) Pool. We offer practices Monday
+                        through
+                        Friday
 
-    <div id="alumni">
-        <br>
-        <h3>Alumni Relations</h3>
-        <p>
-            This is the best way to stay connected with the team, and big events like home meets, homecoming tailgates,
-            <br>
-            and other fun events. Once apart of the family, always a part of the family! We love seeing our Alumni come
-            <br>
-            back every year.
-        </p>
-        <p>
-            To get added to the Alumni email list/Facebook Page please email
-            <a href="mailto:jmuclubswimming@gmail.com">jmuclubswimming@gmail.com</a>. List "Alumni" as <br>
-            the subject, and provide your name, email, and grad year in the body.
-        </p>
-        <a href="#top">Back to top</a>
-    </div>
+                        starting at 4 p.m. Our schedule varies per date and semester, so check the calendar tab to see
+                        the
+                        up to
 
-    <div id="faq">
-        <br>
-        <h3>FAQS</h3>
-        <h4>Where and How Often Are Practices?</h4>
-        <p>
-            All practices are held in the University Recreation (UREC) Pool. We offer practices Monday through Friday
-            <br>
-            starting at 4 p.m. Our schedule varies per date and semester, so check the calendar tab to see the up to
-            <br>
-            date practice schedule.
-        </p>
-        <h4>How Many Meets Per Semester?</h4>
-        <p>
-            We attend multiple meets through out the season. We usually attend 2 to 3 in the fall and 3 to 4 in the <br>
-            spring. We also host our own home meet in the Spring and host an Invitational in the Fall. We end our season
-            <br>
-            at the East Coast Collegiate Swim & Dive Club National Championship hosted by Georgia Tech in the Spring
-        </p>
-        <h4>How Does the Point System Work?</h4>
-        <p>
-            We function off a point system to make sure the most active members get the most benefits. We give points
-            <br>
-            for every practice attended, community service event, fundraiser, and other club sports' events attendance.
-            <br>
-            This is most often used when attending a meet with a cap on how many swimmers we can bring.
-        </p>
-        <a href="#top">Back to top</a>
+                        date practice schedule.
+                    </p>
+                    <h4>How Many Meets Per Semester?</h4>
+                    <p>
+                        We attend multiple meets through out the season; Usually 2 to 3 in the fall and 3 to 4
+                        in
+                        the
+                        spring. We also host our own home meet in the Spring and host an Invitational in the Fall. We
+                        end
+                        our season
+
+                        at the East Coast Collegiate Swim & Dive Club National Championship hosted by Georgia Tech in
+                        the
+                        Spring.
+                    </p>
+                    <h4>How Does the Point System Work?</h4>
+                    <p>
+                        We function off a point system to make sure the most active members get the most benefits. We
+                        give
+                        points
+
+                        for every practice attended, community service event, fundraiser, and other club sports' events
+                        attendance.
+
+                        This is most often used when attending a meet with a limit to how many swimmers we can bring.
+                    </p>
+                </section>
+                <br><br>
+            </div>
+            <footer>
+                <div>
+                    <h3>Contact Us!</h3>
+                </div>
+                <div>
+                    <div class="CF">
+                        <form id="contact">
+                            <label id="firstname">First Name</label>
+                            <input type="text" name="firstname" required placeholder="Your name">
+                            <label id="lastname">Last Name</label>
+                            <input type="text" name="lastname" required placeholder="Your last name">
+                            <label id="email">Email</label>
+                            <input type="email" name="email" required placeholder="Your email">
+                            <input type="submit" value="Submit" onclick="contactUs()">
+                        </form>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 
