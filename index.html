@@ -6,21 +6,21 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="indexCSS.css">
-    <link rel="stylesheet" href="purple.css">
+    <!--<link rel="stylesheet" href="purple.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="contactUs.js"></script>
     <title>JMU Club Swimming</title>
 </head>
 
 <body id="overrides">
     <div id="title">
         <br> James Madison University <br>
-                Club Swimming
+        Club Swimming
     </div>
     <br>
     <div class="container">
         <div class="row">
-
             <nav class="col-sm-3">
                 <div class="container-fluid">
                     <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
@@ -65,14 +65,14 @@
                     </p>
                     <br>
                     <h4>JMU Club Swim Email List</h4>
-                    <p> 
+                    <p>
                         This is the best way to join / receive updates on the team.
                         In order to subscribe to the JMU Club Swim email list, please send an email to
                         <a href="mailto:jmuclubswimming@gmail.com">jmuclubswimming@gmail.com</a>.
                         Please make the subject "Email List" and provide your full name, phone number, and email
                         address. If you are interested in joining please state your interest in your email and one of
                         our exec
-                        members will respond to you shortly with more information. 
+                        members will respond to you shortly with more information.
                     </p>
                     <p>
                         In order to unsubscribe from the email list, please send an email with the subject "Unsubscribe"
@@ -95,10 +95,10 @@
                 <section id="results">
                     <h3>Team Results 2018-19</h3>
                     <ul>
-                        <li><a href="time_trials_results.pdf">Invitational Time Trial Results</a></li>                        
-                        <li><a href="main_session_results.pdf">Invitational Main Session Results</a></li>                      
-                        <li><a href="rutgers_results.pdf">Rutgers Results</a></li>                        
-                        <li><a href="fall2018_umd_boysresults.pdf">UMD Mens Results</a></li>                     
+                        <li><a href="time_trials_results.pdf">Invitational Time Trial Results</a></li>
+                        <li><a href="main_session_results.pdf">Invitational Main Session Results</a></li>
+                        <li><a href="rutgers_results.pdf">Rutgers Results</a></li>
+                        <li><a href="fall2018_umd_boysresults.pdf">UMD Mens Results</a></li>
                         <li><a href="fall2018_umd_girlsresults.pdf">UMD Womens Results</a></li>
                     </ul>
                 </section>
@@ -109,7 +109,8 @@
                     <h3>Alumni Relations</h3>
                     <p>
                         This is the best way to stay connected with the team, and big events like home meets, homecoming
-                        tailgates, and other fun events. Once apart of the family, always a part of the family! We love seeing our
+                        tailgates, and other fun events. Once apart of the family, always a part of the family! We love
+                        seeing our
                         Alumni come back every year.
                     </p>
                     <p>
@@ -160,7 +161,26 @@
                         This is most often used when attending a meet with a limit to how many swimmers we can bring.
                     </p>
                 </section>
+                <br><br>
             </div>
+            <footer>
+                <div>
+                    <h3>Contact Us!</h3>
+                </div>
+                <div>
+                    <div class="CF">
+                        <form id="contact">
+                            <label id="firstname">First Name</label>
+                            <input type="text" name="firstname" required placeholder="Your name">
+                            <label id="lastname">Last Name</label>
+                            <input type="text" name="lastname" required placeholder="Your last name">
+                            <label id="email">Email</label>
+                            <input type="email" name="email" required placeholder="Your email">
+                            <input type="submit" value="Submit" onclick="contactUs()">
+                        </form>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
 </body>
